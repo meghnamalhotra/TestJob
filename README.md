@@ -1,9 +1,10 @@
+<p float="left">
+  <img width="350" alt="IMG_0234" src="https://github.com/user-attachments/assets/5b6e71da-f5ff-4879-81f2-da6d461529da" />
 
-<img width="1290" height="2796" alt="IMG_0234" src="https://github.com/user-attachments/assets/5b6e71da-f5ff-4879-81f2-da6d461529da" />
+  <img width="350" alt="IMG_0235" src="https://github.com/user-attachments/assets/132cdb3d-7135-4edf-bdc4-60786af5ef46" />
 
-<img width="1290" height="2796" alt="IMG_0235" src="https://github.com/user-attachments/assets/132cdb3d-7135-4edf-bdc4-60786af5ef46" />
-
-<img width="1290" height="2796" alt="IMG_0236" src="https://github.com/user-attachments/assets/b940c928-0a87-4797-a1a8-121b3f09e6d5" />
+  <img width="350" alt="IMG_0236" src="https://github.com/user-attachments/assets/b940c928-0a87-4797-a1a8-121b3f09e6d5" />
+</p>
 
 
 **Expo Authentication App (Secure + Modern)**

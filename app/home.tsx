@@ -10,8 +10,6 @@ export default function HomeScreen() {
 
 
     const logout = async () => {
-        await clearUserSecure();
-        await clearPassword();
         setUser(null);
         router.replace("/(auth)/sign-in");
     };

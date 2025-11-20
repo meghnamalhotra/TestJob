@@ -59,13 +59,10 @@ export default function SignupForm() {
             phone: data.phone,
         };
 
-        // Save data securely
         await saveUserSecure(user);
         await savePassword(data.password);
 
-        // Set store user for session
         setUser(user);
-
         router.replace("/home");
     };
 

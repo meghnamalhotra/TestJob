@@ -43,7 +43,6 @@ export default function SigninScreen() {
             return;
         }
 
-        await saveUserSecure(storedUser);
         setUser(storedUser);
         router.replace("/home");
     };
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
     buttonContainer: {
         marginTop: 30,
     },
-        bottomTxt: {
+    bottomTxt: {
         textAlign: "right",
         marginTop: 10,
         marginBottom: 20,

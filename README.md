@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<img width="1290" height="2796" alt="IMG_0234" src="https://github.com/user-attachments/assets/5b6e71da-f5ff-4879-81f2-da6d461529da" />
 
-## Get started
+<img width="1290" height="2796" alt="IMG_0235" src="https://github.com/user-attachments/assets/132cdb3d-7135-4edf-bdc4-60786af5ef46" />
 
-1. Install dependencies
+<img width="1290" height="2796" alt="IMG_0236" src="https://github.com/user-attachments/assets/b940c928-0a87-4797-a1a8-121b3f09e6d5" />
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+**Expo Authentication App (Secure + Modern)**
 
-   ```bash
-   npx expo start
-   ```
+A secure and modern authentication flow built using the latest Expo SDK, featuring:
 
-In the output, you'll find options to open the app in a
+1. Signup & Login with validation (React Hook Form + Zod)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. Encrypted credential storage using Expo SecureStore
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+3. Zustand global state management
 
-## Get a fresh project
+4. Protected routing with Expo Router
 
-When you're ready, run:
+5. Persistent session restore after reload & restart
 
-```bash
-npm run reset-project
-```
+6. Clean UI components and scalable architecture
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This project uses Expo's file-based routing and follows best practices for React Native apps.
 
-## Learn more
+**Tech Stack**
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo SDK (Latest)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+React Native
 
-## Join the community
+Expo Router
 
-Join our community of developers creating universal apps.
+Zustand (with secure persistence)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo SecureStore
+
+React Hook Form
+
+Zod Validation
+
+**Getting Started**
+
+Install dependencies:
+
+npm install
+
+
+Start the app:
+
+npx expo start
+
+
+Open the project on:
+
+iOS Simulator
+
+Android Emulator
+
+Expo Go
+
+Development Build
+
+**Authentication Flow Overview**
+
+User signs up → data stored securely with SecureStore
+
+Password stored separately for extra safety
+
+Login validates credentials securely
+
+Zustand stores the logged-in user in-memory
+
+On app restart → user restored automatically via SecureStore
+
+Unauthorized users are blocked from protected screens
+
+
